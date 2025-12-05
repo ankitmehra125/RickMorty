@@ -4,4 +4,6 @@ class Strings {
 
   /// Character Page
   static const String textCharacters = 'characters';
+  static const String textNoInternetConnection = 'no_internet_connection';
+  static const String textNoCharacters = "no_characters";
 }

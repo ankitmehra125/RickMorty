@@ -53,6 +53,19 @@ class CommonUi {
     );
   }
 
+  /// A widget that displays a header for upcoming events with a location dropdown.
+  static Widget loadingIndicator() {
+    return Container(
+      alignment: Alignment.center,
+      margin: EdgeInsets.only(top: 10),
+      child: SizedBox(
+        height: 30,
+        width: 30,
+        child: CircularProgressIndicator(color: AppColors.colorPrimary, strokeWidth: 3),
+      ),
+    );
+  }
+
   /// A custom shimmer widget that can be used as a loading placeholder.
   static Widget customShimmer({double width = double.infinity, double height = 180, double borderRadius = 10.0}) {
     return Shimmer.fromColors(

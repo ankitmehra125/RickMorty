@@ -30,7 +30,7 @@ class Info {
   int? count;
   int? pages;
   String? next;
-  Null? prev;
+  String? prev;
 
   Info({this.count, this.pages, this.next, this.prev});
 
@@ -130,7 +130,7 @@ class Origin {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
+    final Map<String, dynamic> data = Map<String, dynamic>();
     data['name'] = name;
     data['url'] = url;
     return data;

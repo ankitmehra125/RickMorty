@@ -10,6 +10,8 @@ class Languages extends Translations {
 
           /// Character Page
           Strings.textCharacters: "Characters",
+          Strings.textNoInternetConnection: "No internet connection",
+          Strings.textNoCharacters: "No Characters Available",
         },
       };
 }
